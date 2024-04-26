@@ -1,0 +1,2 @@
+# FUNDAMENTOS-DE-TEOR-A-DE-JUEGOS
+Acá se incluye la TA1
