@@ -70,11 +70,11 @@ void MainGame::run()
 {
 	init();
 	//Direcciones de donde se imprime
-	Color colorRojo = { 255, 0, 0, 255 };
+	
 	sprite.init(-1, -1, 1, 1, colorRojo);
-	Color colorVerde = { 0, 255, 0, 255 };
+	
 	sprite2.init(1, 1, -1, -1, colorVerde);
-	Color colorAzul = { 0, 0, 255, 255 };
+	
 	sprite3.init(-1, 1, 1, -1, colorAzul);
 	
 	update();
