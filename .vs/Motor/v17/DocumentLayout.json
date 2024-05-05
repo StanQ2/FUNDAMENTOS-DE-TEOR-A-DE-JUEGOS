@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\MainGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|solutionrelative:Motor\\MainGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\MainGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|solutionrelative:Motor\\MainGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|solutionrelative:Motor\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\Error.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|solutionrelative:Motor\\Error.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\GLS_Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|solutionrelative:Motor\\GLS_Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\Error.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|solutionrelative:Motor\\Error.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\GLS_Program.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|solutionrelative:Motor\\GLS_Program.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\Sprite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|solutionrelative:Motor\\Sprite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -13,26 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\Vertex.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|solutionrelative:Motor\\Vertex.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|solutionrelative:Motor\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\MainGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|solutionrelative:Motor\\MainGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\MainGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|solutionrelative:Motor\\MainGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\GLS_Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|solutionrelative:Motor\\GLS_Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\GLS_Program.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EA22540D-4AF1-40E0-9081-A152682788D3}|Motor\\Motor.vcxproj|solutionrelative:Motor\\GLS_Program.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,50 +50,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GLS_Program.cpp",
-              "DocumentMoniker": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\GLS_Program.cpp",
-              "RelativeDocumentMoniker": "Motor\\GLS_Program.cpp",
-              "ToolTip": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\GLS_Program.cpp",
-              "RelativeToolTip": "Motor\\GLS_Program.cpp",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAkAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-26T02:11:32.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GLS_Program.h",
-              "DocumentMoniker": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\GLS_Program.h",
-              "RelativeDocumentMoniker": "Motor\\GLS_Program.h",
-              "ToolTip": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\GLS_Program.h",
-              "RelativeToolTip": "Motor\\GLS_Program.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-26T00:40:31.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Sprite.cpp",
-              "DocumentMoniker": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\Sprite.cpp",
-              "RelativeDocumentMoniker": "Motor\\Sprite.cpp",
-              "ToolTip": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\Sprite.cpp",
-              "RelativeToolTip": "Motor\\Sprite.cpp",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAAA0AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-25T17:59:13.994Z",
+              "Title": "MainGame.h",
+              "DocumentMoniker": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\MainGame.h",
+              "RelativeDocumentMoniker": "Motor\\MainGame.h",
+              "ToolTip": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\MainGame.h",
+              "RelativeToolTip": "Motor\\MainGame.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-24T23:27:37.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainGame.cpp",
+              "DocumentMoniker": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\MainGame.cpp",
+              "RelativeDocumentMoniker": "Motor\\MainGame.cpp",
+              "ToolTip": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\MainGame.cpp",
+              "RelativeToolTip": "Motor\\MainGame.cpp",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-24T23:48:20.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GLS_Program.cpp",
+              "DocumentMoniker": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\GLS_Program.cpp",
+              "RelativeDocumentMoniker": "Motor\\GLS_Program.cpp",
+              "ToolTip": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\GLS_Program.cpp",
+              "RelativeToolTip": "Motor\\GLS_Program.cpp",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAAAG4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-26T02:11:32.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Error.h",
+              "DocumentMoniker": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\Error.h",
+              "RelativeDocumentMoniker": "Motor\\Error.h",
+              "ToolTip": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\Error.h",
+              "RelativeToolTip": "Motor\\Error.h",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-05T16:52:50.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Error.cpp",
+              "DocumentMoniker": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\Error.cpp",
+              "RelativeDocumentMoniker": "Motor\\Error.cpp",
+              "ToolTip": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\Error.cpp",
+              "RelativeToolTip": "Motor\\Error.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-05T16:53:53.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GLS_Program.h",
+              "DocumentMoniker": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\GLS_Program.h",
+              "RelativeDocumentMoniker": "Motor\\GLS_Program.h",
+              "ToolTip": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\GLS_Program.h",
+              "RelativeToolTip": "Motor\\GLS_Program.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-26T00:40:31.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Sprite.cpp",
+              "DocumentMoniker": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\Sprite.cpp",
+              "RelativeDocumentMoniker": "Motor\\Sprite.cpp",
+              "ToolTip": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\Sprite.cpp",
+              "RelativeToolTip": "Motor\\Sprite.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-25T17:59:13.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Sprite.h",
               "DocumentMoniker": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\Sprite.h",
               "RelativeDocumentMoniker": "Motor\\Sprite.h",
@@ -93,12 +148,11 @@
               "RelativeToolTip": "Motor\\Sprite.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-25T17:51:46.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T17:51:46.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\main.cpp",
               "RelativeDocumentMoniker": "Motor\\main.cpp",
@@ -106,12 +160,11 @@
               "RelativeToolTip": "Motor\\main.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-24T22:27:32.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T22:27:32.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Vertex.h",
               "DocumentMoniker": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\Vertex.h",
               "RelativeDocumentMoniker": "Motor\\Vertex.h",
@@ -119,34 +172,7 @@
               "RelativeToolTip": "Motor\\Vertex.h",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-26T00:08:56.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainGame.h",
-              "DocumentMoniker": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\MainGame.h",
-              "RelativeDocumentMoniker": "Motor\\MainGame.h",
-              "ToolTip": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\MainGame.h",
-              "RelativeToolTip": "Motor\\MainGame.h",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-24T23:27:37.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainGame.cpp",
-              "DocumentMoniker": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\MainGame.cpp",
-              "RelativeDocumentMoniker": "Motor\\MainGame.cpp",
-              "ToolTip": "C:\\Users\\win11\\Documents\\Programar\\FUNDAMENTOS JUEGOS\\Motor\\Motor\\MainGame.cpp",
-              "RelativeToolTip": "Motor\\MainGame.cpp",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAAEcAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-24T23:48:20.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T00:08:56.171Z"
             }
           ]
         }

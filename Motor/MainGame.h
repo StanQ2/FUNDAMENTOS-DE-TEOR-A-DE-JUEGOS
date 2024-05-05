@@ -3,6 +3,7 @@
 #include "GL/eglew.h"
 #include "iostream"
 #include "Sprite.h"
+//#include "GLS_Program.h"
 using namespace std;
 enum class GameState {
 	PLAY, EXIT
@@ -19,6 +20,7 @@ private:
 	SDL_Window* window;
 	void init();
 	void processInput();
+	//void initShaders();
 public:
 	MainGame();
 	~MainGame();

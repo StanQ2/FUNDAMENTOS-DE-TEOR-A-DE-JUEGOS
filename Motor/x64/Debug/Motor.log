@@ -1,2 +1,5 @@
-﻿  Sprite.cpp
+﻿  MainGame.cpp
+C:\Users\win11\Documents\Programar\FUNDAMENTOS JUEGOS\Motor\Motor\MainGame.cpp(21,23): warning C4390: ';': empty controlled statement found; is this the intent?
+  Sprite.cpp
+  Generating Code...
   Motor.vcxproj -> C:\Users\win11\Documents\Programar\FUNDAMENTOS JUEGOS\Motor\x64\Debug\Motor.exe
