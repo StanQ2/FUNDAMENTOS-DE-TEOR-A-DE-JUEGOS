@@ -1,4 +1,4 @@
 ﻿  MainGame.cpp
 C:\Users\win11\Documents\Programar\FUNDAMENTOS JUEGOS\Motor\Motor\MainGame.cpp(20,23): warning C4390: ';': empty controlled statement found; is this the intent?
-C:\Users\win11\Documents\Programar\FUNDAMENTOS JUEGOS\Motor\Motor\MainGame.cpp(91,14): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\win11\Documents\Programar\FUNDAMENTOS JUEGOS\Motor\Motor\MainGame.cpp(98,15): warning C4305: '+=': truncation from 'double' to 'float'
   Motor.vcxproj -> C:\Users\win11\Documents\Programar\FUNDAMENTOS JUEGOS\Motor\x64\Debug\Motor.exe

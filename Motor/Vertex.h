@@ -15,14 +15,23 @@ struct Color {
 	GLubyte a;
 };
 
+struct UV {
+	float u;
+	float v;
+};
+
 //Vertex que tendrá a los dos
 struct Vertex {
 	//Se crea el objeto posición y el objeto color, ocupan posición de memoria
 	//Recuerda mantener orden, porque cambian la posición de memoria
 	Position position;
 	Color color; 
+	UV uv;
 
-
+	void setUV(float u, float v) {
+		uv.u = u;
+		uv.v = v;
+	}
 	void setPosition(float x, float y) {
 			position.x = x;
 			position.y = y;

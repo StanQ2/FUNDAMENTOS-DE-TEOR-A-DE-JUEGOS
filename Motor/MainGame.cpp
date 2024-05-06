@@ -32,6 +32,7 @@ void MainGame::initShaders()
 		, "Shaders/colorShaderFrag.txt");
 	program.addAtribute("vertexPosition");
 	program.addAtribute("vertexColor");
+	program.addAtribute("vertexUV");
 	program.linkShader();
 }
 
@@ -44,7 +45,7 @@ void MainGame::run()
 	init();
 	//Direcciones de donde se imprime
 
-	sprite.init(-1, -1, 1, 1);
+	sprite.init(-1, -1, 1, 1,"images/fuego.png");
 
 	//sprite2.init(1, 1, -1, -1);
 
@@ -85,12 +86,20 @@ void MainGame::draw()
 			sprite3.draw();
 		}
 	}*/
-	program.use();
-	GLuint timeLocation = program.getUniformLocation("time");
-	glUniform1f(timeLocation, time);
-	time += 0.02;
-	sprite.draw();
-	program.unuse();
+	Uint32 tiempo_actual = SDL_GetTicks();
+	float tiempo_transcurrido = (tiempo_actual - tiempo_inicio) / 1000.0f;
+
+	// Cambia la visibilidad del sprite cada 2 segundos
+	bool sprite_visible = ((int)(tiempo_transcurrido / 2.0f)) % 2 == 0;
+	if (sprite_visible) {
+		program.use();
+		GLuint timeLocation = program.getUniformLocation("time");
+		glUniform1f(timeLocation, time);
+		time += 0.02;
+		sprite.draw();
+		program.unuse();
+	}
+
 	SDL_GL_SwapWindow(window);
 }
 
