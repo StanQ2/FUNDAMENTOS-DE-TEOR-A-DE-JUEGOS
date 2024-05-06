@@ -45,6 +45,13 @@ void Sprite::init(float x, float y, int width, int height)
 	vertexData[4].setPosition(x + width, y);
 	vertexData[5].setPosition(x + width, y + height);
 
+	for (int i = 0; i < 6; i++)
+	{
+		vertexData[i].setColor(255, 0, 0, 255);
+	}
+	vertexData[1].setColor(0, 0, 255, 255);
+	vertexData[4].setColor(0, 255, 0, 255);
+
 
 
 	glBindBuffer(GL_ARRAY_BUFFER, vboID); //array al id ,recibe más parametros

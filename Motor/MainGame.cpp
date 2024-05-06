@@ -22,9 +22,36 @@ void MainGame::init()
 	}
 	SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
 	glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+	initShaders();
 
 }
 
+void MainGame::initShaders()
+{
+	program.compileShaders("Shaders/colorShaderVert.txt"
+		, "Shaders/colorShaderFrag.txt");
+	program.addAtribute("vertexPosition");
+	program.addAtribute("vertexColor");
+	program.linkShader();
+}
+
+MainGame::~MainGame()
+{
+}
+
+void MainGame::run()
+{
+	init();
+	//Direcciones de donde se imprime
+
+	sprite.init(-1, -1, 1, 1);
+
+	//sprite2.init(1, 1, -1, -1);
+
+	//sprite3.init(-1, 1, 1, -1);
+
+	update();
+}
 
 void MainGame::draw()
 {
@@ -36,7 +63,7 @@ void MainGame::draw()
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 	// Dibuja el primer sprite
-	if (!primer_sprite_dibujado) {
+	/*if (!primer_sprite_dibujado) {
 		
 		sprite.draw();
 		if (SDL_GetTicks() - tiempo_inicio >= 2000) {
@@ -57,27 +84,16 @@ void MainGame::draw()
 		if (SDL_GetTicks() - tiempo_inicio >= 2000) {
 			sprite3.draw();
 		}
-	}
-
+	}*/
+	program.use();
+	GLuint timeLocation = program.getUniformLocation("time");
+	glUniform1f(timeLocation, time);
+	time += 0.02;
+	sprite.draw();
+	program.unuse();
 	SDL_GL_SwapWindow(window);
 }
 
-
-
-
-void MainGame::run()
-{
-	init();
-	//Direcciones de donde se imprime
-	
-	sprite.init(-1, -1, 1, 1);
-	
-	sprite2.init(1, 1, -1, -1);
-	
-	sprite3.init(-1, 1, 1, -1);
-	
-	update();
-}
 
 void MainGame::update()
 {
@@ -103,6 +119,3 @@ void MainGame::processInput()
 	}
 }
 
-MainGame::~MainGame()
-{
-}

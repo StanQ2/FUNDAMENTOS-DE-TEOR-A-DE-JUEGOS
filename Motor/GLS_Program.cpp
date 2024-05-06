@@ -15,7 +15,7 @@ void GLS_Program::compileShader(const string& shaderPath, GLuint id)
 	}
 	//chapamos todas las líneas
 	while (getline(shaderFile, line)) {
-		filecontent += line;
+		filecontent += line + "\n";
 	}
 	//Se cierra
 	shaderFile.close();
@@ -59,14 +59,13 @@ void GLS_Program::compileShaders(const string& vertexShaderFilePath, const strin
 	vertexShaderID = glCreateShader(GL_VERTEX_SHADER);
 	fragmentShaderID = glCreateShader(GL_FRAGMENT_SHADER);
 	compileShader(vertexShaderFilePath, vertexShaderID);
-	compileShader(fragmentShaderFilePath, vertexShaderID);
+	compileShader(fragmentShaderFilePath, fragmentShaderID);
 
 }
 
 //TODOS LOS SHADER SE UTILIZAN CON LINKSHADER,  
-void GLS_Program::linkShader()
 //todos los SHADERs creados, lo linkeamos al programID 
-{
+void GLS_Program::linkShader(){
 	glAttachShader(programID, vertexShaderID);
 	glAttachShader(programID, fragmentShaderID);
 	glLinkProgram(programID);
@@ -74,15 +73,14 @@ void GLS_Program::linkShader()
 	glGetProgramiv(programID, GL_LINK_STATUS, (int*)&isLinked);
 	if (isLinked == GL_FALSE) {
 		GLint maxLength = 0;
-		std::vector< GLchar> infoLog(maxLength);
+		std::vector<GLchar> infoLog(maxLength);
 		glGetProgramInfoLog(programID, maxLength, &maxLength, &infoLog[0]);
 		glDeleteProgram(programID);
 		fatalError("Shaders no linkearon " + printf("%s", &(infoLog[0])));
-		glDeleteShader(vertexShaderID);
+		glDeleteShader(vertexShaderID); 
 		glDeleteShader(fragmentShaderID);
 		return;
 	}
-
 	glDetachShader(programID, vertexShaderID);
 	glDetachShader(programID, fragmentShaderID);
 	glDeleteShader(vertexShaderID);
@@ -91,9 +89,11 @@ void GLS_Program::linkShader()
 
 void GLS_Program::addAtribute(const string atributeName)
 {
-	glBindAttribLocation(programID, numAtribute++, atributeName.c_str());
+	glBindAttribLocation(programID, numAtribute++, 
+		atributeName.c_str());
 }
 
+//prendete
 void GLS_Program::use()
 {
 	glUseProgram(programID);
@@ -103,6 +103,7 @@ void GLS_Program::use()
 	}
 }
 
+//apagate
 void GLS_Program::unuse()
 {
 	glUseProgram(0);
@@ -111,4 +112,14 @@ void GLS_Program::unuse()
 		glDisableVertexAttribArray(i);
 	}
 
+}
+
+GLuint GLS_Program::getUniformLocation(const string& name)
+{
+	GLuint location = glGetUniformLocation(programID,
+	name.c_str());
+	if (location == GL_INVALID_INDEX) {
+		fatalError("Variable uniform " + name + " no encontrada");
+	}
+	return location;
 }
